@@ -12,7 +12,7 @@ Board front-view:
 
 U-Boot: 
 
-![uboot](https://github.com/Stavros/ebaz4205/blob/master/images/uboot.jpg "U-Boot sequence)
+![uboot](https://github.com/Stavros/ebaz4205/blob/master/images/uboot.jpg "U-Boot sequence")
 ## Resources
 
 * [Hardware details - https://github.com/xjtuecho/EBAZ4205](https://github.com/xjtuecho/EBAZ4205)
