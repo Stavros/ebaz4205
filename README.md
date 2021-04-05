@@ -8,7 +8,7 @@ Download the generated image file and write it on an SD card
 
 Board front-view: 
 ![alt text][ebaz4205_front]
-[ebaz4205_front]: images/ebaz4205_front.jpg "EBAZ4205 front-view"
+[ebaz4205_front]: ./images/ebaz4205_front.jpg "EBAZ4205 front-view"
 
 ## Resources
 
