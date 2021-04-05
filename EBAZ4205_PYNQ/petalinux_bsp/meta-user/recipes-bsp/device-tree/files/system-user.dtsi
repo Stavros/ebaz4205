@@ -1,0 +1,14 @@
+/include/ "system-conf.dtsi"
+/ {
+	model = "EBAZ4205_PYNQ";
+	compatible = "Custom_PYNQ,EBAZ4205", "xlnx,zynq-7000";
+};
+
+&gem0 {
+	phy-mode = "mii";
+	phy-handle = <&phy>;
+
+	phy: ethernet-phy@0 {
+		reg = <0>;
+	};
+};

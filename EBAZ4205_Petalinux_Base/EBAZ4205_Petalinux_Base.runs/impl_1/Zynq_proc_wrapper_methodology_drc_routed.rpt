@@ -1,0 +1,106 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Sat Apr  3 20:58:03 2021
+| Host         : ubicomp running 64-bit Ubuntu 16.04.7 LTS
+| Command      : report_methodology -file Zynq_proc_wrapper_methodology_drc_routed.rpt -pb Zynq_proc_wrapper_methodology_drc_routed.pb -rpx Zynq_proc_wrapper_methodology_drc_routed.rpx
+| Design       : Zynq_proc_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 14
++-----------+------------------+------------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                      | Violations |
++-----------+------------------+------------------------------------------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                                      | 12         |
+| CKLD-2    | Warning          | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 2          |
++-----------+------------------+------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_RXD_i_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_RXD_i_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_RXD_i_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_RXD_i_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_RX_DV_i_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_TXD_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_TXD_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_TXD_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_TXD_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/ENET0_GMII_TX_EN_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/PS7_i/EMIOENET0GMIIRXCLK is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin Zynq_proc_i/processing_system7_0/inst/PS7_i/EMIOENET0GMIITXCLK is not reached by a timing clock
+Related violations: <none>
+
+CKLD-2#1 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net ENET0_GMII_RX_CLK_0_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): Zynq_proc_i/ENET0_GMII_RX_CLK_0, ENET0_GMII_RX_CLK_0_IBUF_inst/O
+Related violations: <none>
+
+CKLD-2#2 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net ENET0_GMII_TX_CLK_0_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): Zynq_proc_i/ENET0_GMII_TX_CLK_0, ENET0_GMII_TX_CLK_0_IBUF_inst/O
+Related violations: <none>
+
+

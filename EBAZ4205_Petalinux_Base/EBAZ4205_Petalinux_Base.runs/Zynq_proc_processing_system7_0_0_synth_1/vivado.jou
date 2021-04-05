@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr  3 20:55:54 2021
+# Process ID: 26377
+# Current directory: /home/stavros/zu3eg/EBAZ4205_Petalinux_Base/EBAZ4205_Petalinux_Base.runs/Zynq_proc_processing_system7_0_0_synth_1
+# Command line: vivado -log Zynq_proc_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Zynq_proc_processing_system7_0_0.tcl
+# Log file: /home/stavros/zu3eg/EBAZ4205_Petalinux_Base/EBAZ4205_Petalinux_Base.runs/Zynq_proc_processing_system7_0_0_synth_1/Zynq_proc_processing_system7_0_0.vds
+# Journal file: /home/stavros/zu3eg/EBAZ4205_Petalinux_Base/EBAZ4205_Petalinux_Base.runs/Zynq_proc_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source Zynq_proc_processing_system7_0_0.tcl -notrace

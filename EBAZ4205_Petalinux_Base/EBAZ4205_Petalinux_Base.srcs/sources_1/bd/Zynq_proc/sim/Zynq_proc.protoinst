@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Zynq_proc": {
+			"proto_instances": {
+			}
+		}
+	}
+}
