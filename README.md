@@ -7,7 +7,7 @@ In this repository you can find the pre-built PS (petalinux) and Pl (vivado) fil
 Download the generated image file and write it on an SD card
 
 Board front-view: 
-![ebaz4205](https://github.com/stavros/blob/master/images/ebaz4205_front.jpg "EBAZ4205 front-view")
+![ebaz4205](https://github.com/Stavros/ebaz4205/blob/master/images/ebaz4205_front.jpg "EBAZ4205 front-view")
 
 ## Resources
 
