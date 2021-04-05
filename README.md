@@ -10,6 +10,9 @@ Board front-view:
 
 ![ebaz4205](https://github.com/Stavros/ebaz4205/blob/master/images/ebaz4205_front.jpg "EBAZ4205 front-view")
 
+U-Boot: 
+
+![uboot](https://github.com/Stavros/ebaz4205/blob/master/images/uboot.jpg "U-Boot sequence)
 ## Resources
 
 * [Hardware details - https://github.com/xjtuecho/EBAZ4205](https://github.com/xjtuecho/EBAZ4205)
