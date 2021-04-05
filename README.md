@@ -4,7 +4,7 @@ This board includes a Zynq-7010 FPGA which was used as a control board in BTC mi
 
 In this repository you can find the pre-built PS (petalinux) and Pl (vivado) files to run PYNQ, following the [guide](https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/ebaz4205-petalinux-installation.html).  
 
-Download the generated image file and write it on an SD card [tbd]
+Download the generated image file and write it on an SD card [download_link](https://drive.google.com/file/d/1MnXFLagFiFrE1o9HDPSr34sZ4QsQKgjx/view?usp=sharing)
 
 Board front-view: 
 
