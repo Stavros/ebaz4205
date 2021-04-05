@@ -15,7 +15,8 @@ U-Boot:
 ![uboot](https://github.com/Stavros/ebaz4205/blob/master/images/uboot.jpg "U-Boot sequence")
 
 Jupyter:
-![jupyter]((https://github.com/Stavros/ebaz4205/blob/master/images/jupyter.jpg "Jupyter")
+
+![jupyter](https://github.com/Stavros/ebaz4205/blob/master/images/jupyter.jpg "Jupyter")
 
 ## Resources
 
