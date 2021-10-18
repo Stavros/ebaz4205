@@ -1,6 +1,6 @@
 # EBAZ4205
 
-This board includes a Zynq-7010 FPGA which was used as a control board in BTC mining farms [EBIT miner](http://miner.ebang.com.cn/).
+This board includes a Zynq-7010 FPGA which was used as a controller board in BTC mining farms [EBIT miner](http://miner.ebang.com.cn/).
 
 In this repository you can find the pre-built PS (Petalinux 2019.1) and PL (Vivado 2019.1) files to run PYNQ, following the [guide](https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/ebaz4205-petalinux-installation.html).  
 
