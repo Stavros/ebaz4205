@@ -35,6 +35,10 @@ Jupyter:
 * [3D printed stand](https://www.tindie.com/products/microinventions/ebaz4205-3d-printed-stand/)
 * [Tweets about EBAZ4205](https://twitter.com/search?q=ebaz4205)
 
+## Known issues/fix
+
+Incorrect system date causes Jupyter to crash. To fix it just update the date of your system 'sudo date -s YYYY/MM/DD hh:mm:ss'.
+
 ## Licence
 
 Copyright (c) 2021 Stavros Kalapothas (aka Stevaras) <stavros@ubinet.gr>.
